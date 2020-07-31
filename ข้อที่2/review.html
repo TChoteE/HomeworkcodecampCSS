@@ -1,1 +1,113 @@
-slide 5 7 15 16
+<!-- slide 5 7 15 16 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review CSS</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+        <!-- example writing External CSS -->
+</head>
+<body>
+    <table width="1330" border="1">
+        <tr>
+            <th style="text-align: center; ">CSS syntax</th>
+            <th style="text-align: center; ">CSS writing</th>
+            <th style="text-align: center; ">selector</th>
+            <th style="text-align: center; ">combinator</th>
+        </tr>
+        <tr>
+            <td style="text-align: center; ">
+                <p>1. selector (ตำแหน่งที่เลือกว่าจะกำหนดลักษณะต่าง)</p> 
+                <p>2. declaration (การประกาศลักษณะ)</p> 
+                <p>2.1 property (คุณสมบัติ)</p> 
+                <p>2.2 value (ค่าที่กำหนด)</p>
+            </td>
+            <td style="text-align: center; ">
+                <p>1. Inline CSS (เขียนภายใน tag HTML)</p>
+                <p>2. External CSS (นำเข้าไฟล์ CSS จากภายนอก)</p>
+                <p>3. Internal CSS (เขียนภายใน Element HTML)</p>
+            </td>
+            <td style="text-align: center; ">
+                <p>1. ID (การกำหนดชื่อของ Element โดยจะมีได้แค่ Element 
+                    เดียวเท่านั้น)
+                </p>
+                <p>2. Class (การกำหนดชื่อของ Element โดยสมารถมีได้หลาย Element)</p>
+            </td>
+            <td style="text-align: center; ">
+                <p>
+                    1. Descendant Selector (space) : ab = tag b ทั้งหมดที่อยู่ใน tag a
+                </p>
+                <p>
+                    2. Child Selector (>) : a>b = tag b ที่เป็นลูกของ tag a
+                </p>
+                <p>
+                    3. Adjacent Sibling Selector (+) : a+b = tag b ที่อยู่ล่าง
+                    tag a และติดอยู่กับ tag a เท่านั้น
+                </p>
+                <p>
+                    4. General Sibling Selector (~) : a~b = tag b ที่อยู่ล่าง
+                    tag a ทุก tag
+                </p>
+            </td>
+        </tr>
+    </table>
+    <table>
+        <h2>For example CSS syntax</h2>
+        <p>ans. CSS syntax</p>
+
+        <h2>For example CSS writing</h2>
+        <p style="color: red;">test ans. CSS syntax (Inline)</p>
+            <!-- example writing Inline CSS -->
+        <p class="heading">test ans. CSS syntax (Internal)</p>
+            <style>
+                .heading{
+                    color: darkorange;
+                }
+            </style>
+            <!-- example writing Internal CSS -->
+        <p class="heading2">test ans. CSS syntax (External)</p>
+            <!-- example writing External CSS -->
+        <p id="idname">test ans. CSS syntax (External)ID</p>
+            <!-- example writing External CSS ID -->
+
+        <h2>selector example Case</h2>
+        <p>ans. CSS syntax</p>
+
+        <h2>combinator example</h2>
+        <p>ans. CSS syntax</p>
+    </table>
+    <hr>
+    <p>answer</p>
+    <table width="1330" border="1">
+        <tr>
+            <th style="text-align: center; ">property</th>
+            <th style="text-align: center; ">value</th>
+            <th style="text-align: center; ">unit</th>
+            <th style="text-align: center; ">differentiation</th>
+        </tr>
+        <tr>
+            <td style="text-align: center; ">
+                <p>2.1</p>
+                <p>2.2.1 content</p>
+                <p>2.2.2 border</p>
+                <p>2.2.3 padding</p>
+                <p>2.2.4 margin</p>
+                <p>2.2.5 element</p>
+            </td>
+            <td style="text-align: center; ">
+                <p>2.1</p>
+                <p>2.3.1 absolute lenghts (ค่าที่แน่นอน)</p>
+                <p>2.3.2 relative lenghts (ความสัมพันธ์)</p>
+            </td>
+            <td style="text-align: center; ">
+                <p></p>
+            </td>
+            <td style="text-align: center; ">
+                <p></p>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
