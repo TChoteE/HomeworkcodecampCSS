@@ -1,0 +1,57 @@
+.total2{
+    font-size: 20px;
+    line-height: 1.2px;
+    color: #757575;
+    display: inline-block;
+    vertical-align: top;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: none;
+}
+.total3{
+    list-style: none;
+    padding-inline-start: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-right: 20px;
+    float: right;
+}
+.total4{
+    margin-top: 0;
+    margin-bottom: 0;
+    position: relative;
+    vertical-align: middle;
+    display: inline-block;
+}
+.account{
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    box-sizing: border-box;
+}
+.total5{
+    display: block;
+    font-size: 12px;
+    height: 100%;
+    line-height: 2;
+    white-space: nowrap;
+    text-align: center;
+    text-decoration: none;
+    background: 0 0;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: all .2s ease
+}
+.menubar{
+    list-style: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    box-shadow: inset -1px 0 0 0 #e5e5e5;
+    display: inline-block;
+    vertical-align: top;
+}
+
